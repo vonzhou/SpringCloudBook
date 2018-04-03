@@ -817,3 +817,257 @@
 2018-04-01 09:35:51.211  INFO 12735 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
 2018-04-01 09:35:51.214  INFO 12735 --- [Thread-12] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
 2018-04-01 09:35:51.216  INFO 12735 --- [Thread-12] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2018-04-02 20:08:19.441  INFO 13768 --- [main] com.didispace.Application                : No active profile set, falling back to default profiles: default
+2018-04-02 20:08:19.461  INFO 13768 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Mon Apr 02 20:08:19 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@56528192
+2018-04-02 20:08:20.649  WARN 13768 --- [main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-04-02 20:08:20.960  INFO 13768 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0a0f5f68-6d85-3adb-8398-396deaed0021
+2018-04-02 20:08:20.980  INFO 13768 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-02 20:08:21.007  INFO 13768 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$59f2f4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-02 20:08:21.017  INFO 13768 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$aefe3142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-02 20:08:21.413  INFO 13768 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2018-04-02 20:08:21.429  INFO 13768 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-04-02 20:08:21.431  INFO 13768 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2018-04-02 20:08:21.664  INFO 13768 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-02 20:08:21.666  INFO 13768 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2205 ms
+2018-04-02 20:08:22.716  INFO 13768 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'metricFilter' to: [/*]
+2018-04-02 20:08:22.719  INFO 13768 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-02 20:08:22.720  INFO 13768 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-02 20:08:22.721  INFO 13768 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-02 20:08:22.722  INFO 13768 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-02 20:08:22.723  INFO 13768 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'webRequestTraceFilter' to: [/*]
+2018-04-02 20:08:22.723  INFO 13768 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2018-04-02 20:08:22.723  INFO 13768 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-04-02 20:08:22.724  INFO 13768 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-02 20:08:22.963  INFO 13768 --- [localhost-startStop-1] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2018-04-02 20:08:23.105  INFO 13768 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-04-02 20:08:23.108  INFO 13768 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-04-02 20:08:23.251  INFO 13768 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-04-02 20:08:23.251  INFO 13768 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-04-02 20:08:23.828  INFO 13768 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-04-02 20:08:23.910  INFO 13768 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-04-02 20:08:23.928  INFO 13768 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1522670903928 with initial instances count: 0
+2018-04-02 20:08:24.152  INFO 13768 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2018-04-02 20:08:24.155  WARN 13768 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 20:08:24.170  INFO 13768 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2018-04-02 20:08:24.171  INFO 13768 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2018-04-02 20:08:24.562  INFO 13768 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Mon Apr 02 20:08:19 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@56528192
+2018-04-02 20:08:24.728  INFO 13768 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-02 20:08:24.728  INFO 13768 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-02 20:08:24.731  INFO 13768 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-02 20:08:24.731  INFO 13768 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-02 20:08:24.767  INFO 13768 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-02 20:08:24.767  INFO 13768 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-02 20:08:24.840  INFO 13768 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-02 20:08:25.426  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.428  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.429  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-04-02 20:08:25.429  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.431  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.432  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2018-04-02 20:08:25.434  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-04-02 20:08:25.435  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-04-02 20:08:25.435  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.436  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.437  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.438  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.440  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-04-02 20:08:25.441  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-04-02 20:08:25.442  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-04-02 20:08:25.442  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-04-02 20:08:25.443  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.443  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.444  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-04-02 20:08:25.445  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-02 20:08:25.446  INFO 13768 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-04-02 20:08:25.639  INFO 13768 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Mon Apr 02 20:08:19 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@56528192] and template loader path [classpath:/templates/]
+2018-04-02 20:08:25.641  INFO 13768 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-04-02 20:08:25.778  WARN 13768 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-02 20:08:25.778  INFO 13768 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-02 20:08:25.791  WARN 13768 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-02 20:08:25.791  INFO 13768 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-02 20:08:25.930  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-02 20:08:25.944  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-04-02 20:08:25.945  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-04-02 20:08:25.948  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-04-02 20:08:25.950  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-04-02 20:08:25.954  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-04-02 20:08:25.957  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-04-02 20:08:25.981  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-04-02 20:08:25.999  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-04-02 20:08:26.009  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1bd39d3c,type=ConfigurationPropertiesRebinder]
+2018-04-02 20:08:26.019  INFO 13768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-04-02 20:08:26.368  INFO 13768 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-04-02 20:08:26.370  INFO 13768 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2018-04-02 20:08:26.371  INFO 13768 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2018-04-02 20:08:26.371  INFO 13768 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application eureka-server with eureka with status UP
+2018-04-02 20:08:26.371  INFO 13768 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2018-04-02 20:08:26.421  INFO 13768 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2018-04-02 20:08:26.421  INFO 13768 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2018-04-02 20:08:26.422  INFO 13768 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2018-04-02 20:08:26.422  INFO 13768 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2018-04-02 20:08:26.422  INFO 13768 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2018-04-02 20:08:26.432  INFO 13768 --- [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2018-04-02 20:08:26.584  INFO 13768 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2018-04-02 20:08:26.586  INFO 13768 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2018-04-02 20:08:26.592  INFO 13768 --- [main] com.didispace.Application                : Started Application in 10.633 seconds (JVM running for 11.544)
+2018-04-02 20:09:04.714  INFO 13768 --- [http-nio-1111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-02 20:09:04.715  INFO 13768 --- [http-nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-02 20:09:04.749  INFO 13768 --- [http-nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2018-04-02 20:09:26.423  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 20:09:44.789  WARN 13768 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: HELLO-SERVICE/192.168.0.101:hello-service:-1
+2018-04-02 20:09:44.790  INFO 13768 --- [http-nio-1111-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): HELLO-SERVICE - 192.168.0.101:hello-service:-1
+2018-04-02 20:10:26.424  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 20:11:23.476  INFO 13768 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.0.101:hello-service:8885 with status UP (replication=false)
+2018-04-02 20:11:26.426  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 20:12:26.492  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 20:13:26.492  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 20:13:42.965  INFO 13768 --- [http-nio-1111-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.0.101:hello-service:8886 with status UP (replication=false)
+2018-04-02 20:14:26.496  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 20:15:26.497  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 20:16:26.498  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 20:17:26.502  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 20:18:24.205  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 20:18:26.503  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 20:19:26.507  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 20:20:26.515  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2018-04-02 20:21:26.515  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 20:22:26.515  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 20:23:24.216  INFO 13768 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2018-04-02 20:23:26.516  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 20:24:26.518  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 20:25:26.518  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 20:26:26.519  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 20:27:26.579  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 20:28:24.255  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 20:28:26.581  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 20:29:26.585  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 20:30:26.588  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 20:30:55.181  INFO 13768 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RIBBON-CONSUMER/192.168.0.101:ribbon-consumer:9000 with status UP (replication=false)
+2018-04-02 20:31:26.590  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 20:32:26.591  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 20:33:26.595  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 20:34:26.600  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 20:35:26.604  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 20:36:26.605  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 20:37:26.607  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 20:38:24.263  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 20:38:24.281  INFO 13768 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2018-04-02 20:38:26.611  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 20:39:26.614  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 20:40:26.619  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 20:41:26.620  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 20:42:26.675  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 20:43:26.681  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 20:44:26.691  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2018-04-02 20:45:26.692  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 20:46:26.701  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2018-04-02 20:47:26.708  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 20:48:24.328  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 20:48:26.715  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 20:49:26.721  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 20:50:26.728  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 20:51:26.730  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 20:52:26.734  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 20:53:24.352  INFO 13768 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2018-04-02 20:53:26.738  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 20:54:26.743  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 20:55:26.747  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 20:56:26.755  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 20:57:26.765  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2018-04-02 20:58:24.347  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 20:58:26.771  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 20:59:26.773  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 21:00:26.784  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2018-04-02 21:01:26.796  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2018-04-02 21:02:26.801  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 21:03:26.837  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:04:26.847  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 21:05:26.851  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 21:06:26.863  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2018-04-02 21:07:26.874  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2018-04-02 21:08:24.397  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 21:08:24.415  INFO 13768 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2018-04-02 21:08:26.876  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 21:09:26.887  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2018-04-02 21:10:26.896  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2018-04-02 21:11:26.899  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 21:12:26.906  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 21:13:26.909  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 21:14:26.921  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2018-04-02 21:15:26.933  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2018-04-02 21:16:26.943  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2018-04-02 21:17:26.955  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2018-04-02 21:18:24.426  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 21:18:26.962  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 21:19:26.983  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2018-04-02 21:20:26.992  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2018-04-02 21:21:27.000  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 21:22:27.006  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:23:24.459  INFO 13768 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2018-04-02 21:23:27.009  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 21:24:27.019  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2018-04-02 21:25:27.029  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2018-04-02 21:26:27.036  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 21:27:27.047  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2018-04-02 21:28:24.466  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 21:28:27.057  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2018-04-02 21:29:27.069  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2018-04-02 21:30:27.074  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 21:31:27.084  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2018-04-02 21:32:27.087  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 21:33:27.094  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 21:34:27.101  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 21:35:27.122  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 21:36:27.128  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 21:37:27.135  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 21:38:24.513  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 21:38:24.515  INFO 13768 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2018-04-02 21:38:27.141  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:39:27.145  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 21:40:27.152  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:41:27.159  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 21:42:27.165  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:43:27.172  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:44:27.179  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-02 21:45:27.185  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:46:27.190  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 21:47:27.196  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 21:48:24.537  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 21:48:27.201  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 21:49:27.207  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:50:27.228  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 21:51:27.236  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:52:27.241  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 21:53:24.568  INFO 13768 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2018-04-02 21:53:27.244  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 21:54:27.248  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 21:55:27.254  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 21:56:27.259  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 21:57:27.265  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 21:58:24.576  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 21:58:27.268  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 21:59:27.273  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 22:00:27.277  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 22:01:27.282  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 22:02:27.287  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 22:03:27.292  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 22:04:27.295  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-02 22:05:27.311  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-04-02 22:06:27.319  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-04-02 22:07:27.321  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-02 22:08:24.609  INFO 13768 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2018-04-02 22:08:24.612  WARN 13768 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-04-02 22:08:27.326  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-04-02 22:09:27.329  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-03 00:51:31.789  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2107ms
+2018-04-03 06:15:53.360  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-04-03 10:11:14.378  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2018-04-03 21:05:10.896  INFO 13768 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.0.101:hello-service:8885 with status DOWN (replication=false)
+2018-04-03 21:05:10.925  INFO 13768 --- [http-nio-1111-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance HELLO-SERVICE/192.168.0.101:hello-service:8885 (replication=false)
+2018-04-03 21:05:12.594  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-04-03 21:05:12.598  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Evicting 1 items (expired=2, evictionLimit=1)
+2018-04-03 21:05:12.599  WARN 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for HELLO-SERVICE/192.168.0.101:hello-service:8886
+2018-04-03 21:05:12.600  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance HELLO-SERVICE/192.168.0.101:hello-service:8886 (replication=false)
+2018-04-03 21:05:14.124  WARN 13768 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: HELLO-SERVICE - 192.168.0.101:hello-service:8886
+2018-04-03 21:05:14.125  WARN 13768 --- [http-nio-1111-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): HELLO-SERVICE - 192.168.0.101:hello-service:8886
+2018-04-03 21:05:14.175  INFO 13768 --- [http-nio-1111-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.0.101:hello-service:8886 with status UP (replication=false)
