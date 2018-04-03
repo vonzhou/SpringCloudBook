@@ -2,3 +2,6 @@
 **/target
 *.iml
 eureka-server/target
+eureka-server/.idea/
+hello-service-0/target/
+hello-service-0/.idea
