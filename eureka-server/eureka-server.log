@@ -1071,3 +1071,6 @@
 2018-04-03 21:05:14.124  WARN 13768 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: HELLO-SERVICE - 192.168.0.101:hello-service:8886
 2018-04-03 21:05:14.125  WARN 13768 --- [http-nio-1111-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): HELLO-SERVICE - 192.168.0.101:hello-service:8886
 2018-04-03 21:05:14.175  INFO 13768 --- [http-nio-1111-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.0.101:hello-service:8886 with status UP (replication=false)
+2018-04-03 21:06:12.597  INFO 13768 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-04-03 21:06:28.735  INFO 13768 --- [http-nio-1111-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RIBBON-CONSUMER/192.168.0.101:ribbon-consumer:9000 with status DOWN (replication=false)
+2018-04-03 21:06:28.756  INFO 13768 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance RIBBON-CONSUMER/192.168.0.101:ribbon-consumer:9000 (replication=false)
