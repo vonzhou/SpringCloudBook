@@ -13,13 +13,17 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class ConsumerApplication {
 
-	@Bean
-	@LoadBalanced
-	RestTemplate restTemplate() {
-		return new RestTemplate();
-	}
-	public static void main(String[] args) {
-		SpringApplication.run(ConsumerApplication.class, args);
-	}
+    /**
+     * 标记 RestTemplate , 以使用 LoadBalancerClient
+     */
+    @Bean
+    @LoadBalanced
+    RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+
+    public static void main(String[] args) {
+        SpringApplication.run(ConsumerApplication.class, args);
+    }
 
 }
