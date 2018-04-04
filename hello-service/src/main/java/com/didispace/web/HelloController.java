@@ -1,5 +1,6 @@
 package com.didispace.web;
 
+import com.didispace.dto.User;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

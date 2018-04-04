@@ -11,6 +11,11 @@ public class ConsumerController {
     @Autowired
     HelloService helloService;
 
+    @RequestMapping(value = "/ribbon-consumer2", method = RequestMethod.GET)
+    public String helloConsumer2() {
+        return helloService.hello2();
+    }
+
     @RequestMapping(value = "/ribbon-consumer", method = RequestMethod.GET)
     public String helloConsumer() {
         return helloService.hello();
