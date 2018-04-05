@@ -12,13 +12,13 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class ConsumerApplication {
 
-//	@Bean
-//	Logger.Level feignLoggerLevel() {
-//		return Logger.Level.FULL;
-//	}
+    @Bean
+    Logger.Level feignLoggerLevel() {
+        return Logger.Level.FULL;
+    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(ConsumerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ConsumerApplication.class, args);
+    }
 
 }

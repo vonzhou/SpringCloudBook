@@ -5,3 +5,9 @@ eureka-server/target
 eureka-server/.idea/
 hello-service-0/target/
 hello-service-0/.idea
+ribbon-consumer/target
+ribbon-consumer/.idea/
+hello-service-api/target
+hello-service/target
+hello-service-api/.idea/
+hello-service/.idea/

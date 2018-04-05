@@ -29,17 +29,16 @@ public class HelloService {
 
         // GET
         result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello", String.class).getBody()).append("<br>");
-        result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello1?name={1}", String.class, "didi").getBody()).append("<br>");
+        result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello1?name={1}", String.class, "didi").getBody())
+                        .append("<br>");
 
         Map<String, String> params = new HashMap<>();
         params.put("name", "dada");
-        result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello1?name={name}", String.class, params).getBody()).append("<br>");
+        result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello1?name={name}", String.class, params).getBody())
+                        .append("<br>");
 
-        UriComponents uriComponents = UriComponentsBuilder.fromUriString(
-                "http://HELLO-SERVICE/hello1?name={name}")
-                .build()
-                .expand("dodo")
-                .encode();
+        UriComponents uriComponents = UriComponentsBuilder.fromUriString("http://HELLO-SERVICE/hello1?name={name}").build()
+                        .expand("dodo").encode();
         URI uri = uriComponents.toUri();
         result.append(restTemplate.getForEntity(uri, String.class).getBody()).append("<br>");
 
@@ -61,11 +60,20 @@ public class HelloService {
 
         long end = System.currentTimeMillis();
 
-        logger.info("Spend time : " + (end - start) );
+        logger.info("Spend time : " + (end - start));
         return result.toString();
     }
 
-    public String helloFallback() {
+    @HystrixCommand(fallbackMethod = "helloFallback", commandKey = "helloKey2", groupKey = "helloGroup", threadPoolKey = "helloThread")
+    public String hello2() {
+//        if (true) {
+//            throw new RuntimeException("fake");
+//        }
+        return restTemplate.getForEntity("http://HELLO-SERVICE/hellos", String.class).getBody();
+    }
+
+    public String helloFallback(Throwable e) {
+        logger.info(String.format("针对具体异常做不同的处理： %s", e));
         return "error";
     }
 
